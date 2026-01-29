@@ -16,18 +16,18 @@ It allows users to test their typing speed and accuracy in real time and stores 
 ## Setup
 To run this project locally, install the dependencies and start both the frontend and backend servers.
 
-### Backend
+*Backend*
 ```bash
 cd backend
 npm install
 npm start
 
-### Frontend
+*Frontend*
 ```bash
 cd backend
 npm run dev
 
-Important:
+*Important*
 To connect the application to your own MongoDB database, update the following variables in backend/config.js:
 PORT
 mongoDBURL
